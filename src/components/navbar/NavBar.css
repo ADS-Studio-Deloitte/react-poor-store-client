@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.navbar .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar .navbar-links {
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}

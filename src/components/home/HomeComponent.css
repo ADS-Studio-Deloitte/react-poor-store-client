@@ -1,0 +1,19 @@
+.product-definition-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem
+}
+
+.product-definition-container .submit-button {
+    margin-top: 1.2rem;
+}
+
+.product-definition-container .product-added {
+    color: white;
+    padding: 0.4rem;
+    background-color: #50C878;
+    border: 2px solid lightgreen;
+    border-radius: 8px;
+}
