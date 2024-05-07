@@ -1,0 +1,50 @@
+[
+   {
+      "name": "Soap",
+      "price": 2.99,
+      "category": "Personal Care",
+      "description": "A gentle soap for everyday use",
+      "weight": 0.2
+   },
+   {
+      "name": "Keyboard",
+      "price": 29.99,
+      "category": "Electronics",
+      "description": "A high-quality keyboard for typing"
+   },
+   {
+      "name": "Shirt",
+      "price": 19.99,
+      "color": "Blue",
+      "size": "M",
+      "category": "Clothing",
+      "description": "A stylish shirt for any occasion"
+   },
+   {
+      "name": "Book",
+      "price": 12.99,
+      "category": "Books",
+      "description": "An interesting book to read"
+   },
+   {
+      "name": "Coffee",
+      "price": 4.99,
+      "category": "Beverages",
+      "description": "A delicious coffee to start your day"
+   },
+   {
+      "name": "Laptop",
+      "price": 999.99,
+      "category": "Electronics",
+      "description": "A powerful laptop for all your computing needs",
+      "height": 0.75,
+      "weight": 2.5
+   },
+   {
+      "name": "Sunglasses",
+      "price": 49.99,
+      "category": "Accessories",
+      "description": "Stylish sunglasses to protect your eyes",
+      "weight": 0.1
+   }
+]

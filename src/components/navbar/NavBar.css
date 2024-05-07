@@ -4,6 +4,16 @@
     margin: 0.5rem 1rem;
 }
 
+.navbar .left-bar {
+    display: flex;
+    gap: 3rem;   
+}
+
+.navbar .username {
+    display: flex;
+    align-items: center;
+}
+
 .navbar .navbar-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -15,4 +25,11 @@
     display: flex;
     gap: 2rem;
     list-style-type: none;
+}
+
+.access-token {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: #333 1px solid;
+    word-wrap: break-word;
 }

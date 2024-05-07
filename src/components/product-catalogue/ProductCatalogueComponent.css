@@ -1,0 +1,12 @@
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-added {
+    color: white;
+    padding: 0.4rem;
+    background-color: #50C878;
+    border: 2px solid lightgreen;
+    border-radius: 8px;
+}

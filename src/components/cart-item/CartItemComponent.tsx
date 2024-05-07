@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductComponent.css";
+import "./CartItemComponent.css";
 import { Button } from '@mui/material';
 
 interface IProps {
@@ -7,7 +7,7 @@ interface IProps {
     onRemoveButtonClick: (product: any) => void;
 }
 
-const ProductComponent = ({ product, onRemoveButtonClick }: IProps) => {
+const CartItemComponent = ({ product, onRemoveButtonClick }: IProps) => {
   const { name } = product;
 
   return (
@@ -32,4 +32,4 @@ const ProductComponent = ({ product, onRemoveButtonClick }: IProps) => {
   );
 };
 
-export default ProductComponent;
+export default CartItemComponent;

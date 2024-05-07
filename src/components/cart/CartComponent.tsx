@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import ProductComponent from "../product/ProductComponent";
+import CartItemComponent from "../cart-item/CartItemComponent";
 import "./CartComponent.css";
 import { getCart, removeProduct } from "../../service/endpoints";
 
@@ -28,7 +28,7 @@ const CartComponent = () => {
       <h2>Your cart:</h2>
       <div className="cart">
         {productList.map((product, index) => (
-          <ProductComponent
+          <CartItemComponent
             key={index}
             product={product}
             onRemoveButtonClick={onRemoveButtonClick}

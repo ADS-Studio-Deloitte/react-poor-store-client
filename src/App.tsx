@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import { Outlet } from 'react-router-dom';
+import * as paths from './router/pagePaths';
 
 const navBarLinks = [
-  {displayName: 'Home', ref: 'home'},
-  {displayName: 'Cart', ref: 'cart'}
+  {displayName: 'Catalogue', ref: paths.productCataloguePath},
+  {displayName: 'Cart', ref: paths.cartPath}
 ];
 
 function App() {
